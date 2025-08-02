@@ -1,5 +1,5 @@
 %title: ANSIBLE
-%author: xavki
+%author: Saliou
 
 
 # SSH - Génération et Utilisation de la clef
@@ -52,13 +52,13 @@ vim /home/user/.ssh/authorized_keys
 ou via ssh-copy-id
 
 ```
-ssh-copy-id -i /myhome/.ssh/maclefprivee xavki@monhost
+ssh-copy-id -i /myhome/.ssh/maclefprivee Saliou@monhost
 ```
 
 Remarque : specific pour une ip
 
 ```
-from="10.0.0.?,*.example.com",no-X11-forwarding ssh-rsa AB3Nz...EN8w== xavki@monhost
+from="10.0.0.?,*.example.com",no-X11-forwarding ssh-rsa AB3Nz...EN8w== Saliou@monhost
 ```
 
 <br>
@@ -66,7 +66,7 @@ from="10.0.0.?,*.example.com",no-X11-forwarding ssh-rsa AB3Nz...EN8w== xavki@mon
 * utilisation de la clef
 
 ```
-ssh -i /localisation/clef/privee xavki@monhost
+ssh -i /localisation/clef/privee Saliou@monhost
 ```
 
 ou plus facilement par un agent ssh (embarque votre configuration ssh)
@@ -130,5 +130,5 @@ Host * !monhost*
 * astuce pour bypasser la conf
 
 ```
-ssh -F /dev/null xavki@monhost
+ssh -F /dev/null Saliou@monhost
 ```

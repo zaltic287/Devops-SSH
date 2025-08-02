@@ -1,5 +1,5 @@
 %title: SSH
-%author: xavki
+%author: Saliou
 
 
 # SSH - Proxy Socks

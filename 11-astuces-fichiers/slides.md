@@ -6,13 +6,13 @@
 * monter un répertoire vide
 
 ```
-sshfs /tmp/xavki 172.17.0.2:/tmp/
+sshfs /tmp/Saliou 172.17.0.2:/tmp/
 ```
 
 * diff entre un fichier distant et un local
 
 ```
-ssh 172.17.0.2 cat /tmp/xavki | diff /tmp/xavki/test -
+ssh 172.17.0.2 cat /tmp/Saliou | diff /tmp/Saliou/test -
 ```
 
 * copie de répertoires entre 2 machines

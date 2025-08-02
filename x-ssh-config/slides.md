@@ -1,5 +1,5 @@
 %title: ANSIBLE
-%author: xavki
+%author: Saliou
 
 
 # SSH - votre config
@@ -32,5 +32,5 @@ Host * !monhost*
 * astuce pour bypasser la conf
 
 ```
-ssh -F /dev/null xavki@monhost
+ssh -F /dev/null Saliou@monhost
 ```

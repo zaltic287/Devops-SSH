@@ -13,7 +13,7 @@ Objectifs :
 * utilisation de la clef
 
 ```
-ssh -i /localisation/clef/privee xavki@monhost
+ssh -i /localisation/clef/privee Saliou@monhost
 ```
 
 ou plus facilement par un agent ssh (embarque votre configuration ssh)

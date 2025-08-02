@@ -1,5 +1,5 @@
 %title: Notions
-%author: xavki
+%author: Saliou
 
 
 # SSH : Principes
