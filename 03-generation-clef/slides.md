@@ -56,7 +56,7 @@ vim /home/user/.ssh/authorized_keys
 Remarque : specific pour une ip
 
 ```
-from="10.0.0.?,*.example.com",no-X11-forwarding ssh-rsa AB3Nz...EN8w== xavki@monhost
+from="10.0.0.?,*.example.com",no-X11-forwarding ssh-rsa AB3Nz...EN8w== Saliou@monhost
 ```
 
 <br>
@@ -64,6 +64,6 @@ from="10.0.0.?,*.example.com",no-X11-forwarding ssh-rsa AB3Nz...EN8w== xavki@mon
 * utilisation de la clef
 
 ```
-ssh -i /localisation/clef/privee xavki@monhost
+ssh -i /localisation/clef/privee Saliou@monhost
 ```
 
